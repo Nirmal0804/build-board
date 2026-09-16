@@ -115,8 +115,8 @@ buildboard/
 Clone the repository and install dependencies for all workspaces:
 
 ```bash
-git clone https://github.com/buildboard/buildboard.git
-cd buildboard
+git clone https://github.com/Nirmal0804/build-board.git
+cd build-board
 npm install
 ```
 
