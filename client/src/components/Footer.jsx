@@ -43,7 +43,7 @@ export const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="https://github.com/buildboard/buildboard"
+                    href="https://github.com/Nirmal0804/build-board.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -52,7 +52,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/buildboard/buildboard/blob/main/CONTRIBUTING.md"
+                    href="https://github.com/Nirmal0804/build-board/blob/main/CONTRIBUTING.md"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -61,7 +61,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/buildboard/buildboard/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22"
+                    href="https://github.com/Nirmal0804/build-board/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -70,7 +70,7 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/buildboard/buildboard/blob/main/CODE_OF_CONDUCT.md"
+                    href="https://github.com/Nirmal0804/build-board/blob/main/CODE_OF_CONDUCT.md"
                     target="_blank"
                     rel="noreferrer"
                   >
