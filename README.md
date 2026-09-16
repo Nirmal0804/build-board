@@ -222,7 +222,7 @@ Looking to make your first open-source contribution? Check out our curated list 
 - [x] JWT authentication & bcrypt password hashing
 - [x] Category filtering and title search
 - [x] Full responsive layout for mobile and desktop
-- [x] Comprehensive test suites and GitHub Actions CI
+- [x] Automated frontend and backend test suites with GitHub Actions CI
 - [ ] Relative time formatting (`2 hours ago`)
 - [ ] User bookmarking / saving posts
 - [ ] Dark mode theme toggle

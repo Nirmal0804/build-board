@@ -17,12 +17,17 @@ Make sure you have installed:
 
 ### Clone and Install
 
-Clone your fork of the repository and install all monorepo dependencies from the root:
+First, fork the upstream repository ([https://github.com/Nirmal0804/build-board](https://github.com/Nirmal0804/build-board)) to your personal GitHub account.
+
+Next, clone your personal fork, add the upstream remote, and install all monorepo dependencies from the root:
 
 ```bash
-# Clone repository
-git clone https://github.com/your-username/buildboard.git
-cd buildboard
+# Clone your personal fork
+git clone https://github.com/YOUR-USERNAME/build-board.git
+cd build-board
+
+# Add upstream remote to pull future updates
+git remote add upstream https://github.com/Nirmal0804/build-board.git
 
 # Install root & workspace dependencies
 npm install
@@ -46,6 +51,7 @@ Edit `server/.env` with your local database URL and preferred port:
 ```env
 PORT=5000
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/buildboard?schema=public"
+# Local-development placeholder only — do not use in production
 JWT_SECRET="buildboard_dev_jwt_secret_key_1234567890"
 JWT_EXPIRES_IN="7d"
 NODE_ENV="development"

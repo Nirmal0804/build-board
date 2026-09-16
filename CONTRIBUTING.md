@@ -26,20 +26,20 @@ If you are new to the project, start by looking for issues labeled:
 Follow these 10 steps to make your contribution:
 
 ### 1. Fork the Repository
-Click the **Fork** button at the top right of the [BuildBoard GitHub repository](https://github.com/buildboard/buildboard) to create your personal copy.
+Click the **Fork** button at the top right of the [BuildBoard GitHub repository](https://github.com/Nirmal0804/build-board) to create your personal copy.
 
 ### 2. Clone Your Fork
 Clone your fork to your local machine:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/buildboard.git
-cd buildboard
+git clone https://github.com/YOUR-USERNAME/build-board.git
+cd build-board
 ```
 
 Add the upstream remote:
 
 ```bash
-git remote add upstream https://github.com/buildboard/buildboard.git
+git remote add upstream https://github.com/Nirmal0804/build-board.git
 ```
 
 ### 3. Install Dependencies
