@@ -1,0 +1,29 @@
+name: 📝 Documentation Update
+description: Suggest improvements, corrections, or new guides for project documentation
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accurate, beginner-friendly documentation is a core value of BuildBoard!
+  - type: input
+    id: doc_title
+    attributes:
+      label: Documentation Area
+      placeholder: e.g. README.md, docs/development.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs improvement?
+      description: Describe what is unclear, missing, or outdated.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Suggested Content or Changes
+      description: Provide the proposed new or revised wording.
+    validations:
+      required: true

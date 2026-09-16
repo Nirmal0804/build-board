@@ -1,0 +1,20 @@
+# BuildBoard CODEOWNERS
+# These owners are automatically requested for review when a Pull Request is opened.
+# 
+# Instructions:
+# Replace the placeholder '@your-org/maintainers' with your actual GitHub username or team handle.
+# Example:
+#   * @octocat
+#
+# Default maintainers
+# * @your-org/maintainers
+#
+# Client team
+# /client/ @your-org/frontend-team
+#
+# Server team
+# /server/ @your-org/backend-team
+#
+# Documentation & GitHub workflows
+# /docs/ @your-org/maintainers
+# /.github/ @your-org/maintainers

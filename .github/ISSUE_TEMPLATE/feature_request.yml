@@ -1,0 +1,36 @@
+name: ✨ Feature Request
+description: Suggest a new feature or improvement for BuildBoard
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for BuildBoard? We'd love to hear it!
+  - type: input
+    id: title
+    attributes:
+      label: Feature Title
+      placeholder: e.g. Add dark mode theme toggle
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a specific problem or developer pain point?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution or user experience.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Approaches
+      description: Did you consider other options or libraries?
+    validations:
+      required: false

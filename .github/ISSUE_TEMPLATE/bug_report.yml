@@ -1,0 +1,42 @@
+name: 🐛 Bug Report
+description: Report a reproducible problem or unexpected behavior in BuildBoard
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in the details below.
+  - type: input
+    id: summary
+    attributes:
+      label: Bug Summary
+      description: A concise summary of what went wrong.
+      placeholder: e.g. Post like counter doesn't update when clicked
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: Provide clear, step-by-step instructions.
+      placeholder: |
+        1. Go to '/posts'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS version, Node version.
+      placeholder: e.g. Chrome 125, Windows 11, Node 20.x
+    validations:
+      required: false

@@ -1,0 +1,61 @@
+name: 🌟 Good First Issue
+description: Create a well-scoped task designed for new open-source contributors
+labels: ["good first issue", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when filing a beginner-friendly issue with clear boundaries and helpful guidance.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the task and why it is beneficial to the project.
+      placeholder: Describe the problem or improvement needed...
+    validations:
+      required: true
+  - type: textarea
+    id: where_to_look
+    attributes:
+      label: Where to look
+      description: Point to relevant files, directories, or components.
+      placeholder: e.g. client/src/components/Navbar.jsx
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: What should the application look or behave like after this is solved?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: Checkable list of items that must be satisfied for the PR to be accepted.
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Tests pass
+    validations:
+      required: true
+  - type: textarea
+    id: helpful_knowledge
+    attributes:
+      label: Helpful knowledge
+      description: Concepts, links, or documentation that will help the contributor.
+      placeholder: e.g. Basic React state, CSS flexbox, or Express middleware
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      description: Estimated complexity for a beginner.
+      options:
+        - "Very Easy (HTML/CSS, text tweak, asset)"
+        - "Easy (Simple React component state, prop)"
+        - "Medium (API endpoint, form validation, test)"
+    validations:
+      required: true
